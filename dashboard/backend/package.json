@@ -1,0 +1,14 @@
+{
+  "name": "dpi-dashboard-backend",
+  "version": "1.0.0",
+  "description": "DPI Engine Dashboard Backend - WebSocket + UDP bridge",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0",
+    "dgram": "^1.0.1"
+  }
+}
